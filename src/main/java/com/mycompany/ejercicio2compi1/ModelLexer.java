@@ -19,8 +19,6 @@ public class ModelLexer {
                 textoPosicionesDigitos += posicionesDigitos[i][0]+"\t"+posicionesDigitos[i][1]+"\n";
             }
             String outputString =
-                "Palabras sin vocales:\t\t"+lexer.getSinVocal().length+"\n"+
-                getPalabrasVocales(lexer.getSinVocal())+
                 "Palabras con una vocal:\t\t"+lexer.getUnaVocal().length+"\n"+
                 getPalabrasVocales(lexer.getUnaVocal())+
                 "Palabras con dos vocales:\t\t"+lexer.getDosVocales().length+"\n"+
